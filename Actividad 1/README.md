@@ -2,7 +2,12 @@ EJ_3. Analiza los headers de las peticiones cuando inicias sesión en el Moodle 
 cómo se obtiene el token. Para ello, necesitamos saber de dónde salen TODOS los
 datos sensibles que se envían.
 
--
+-headers
+<img src="ex_3.2.png" width="1000" height="300">
+
+-Token key
+<img src="ex_3.png" width="1000" height="300">
+
 EJ_4.¿A qué puerto se reciben normalmente las peticiones del protocolo HTTP? ¿A qué
 capa del modelo TCP/IP se encuentra el protocolo HTTP? ¿Y los protocolos TCP,
 UDP, e IP?
