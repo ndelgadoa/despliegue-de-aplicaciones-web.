@@ -2,6 +2,9 @@ EJ_3. Analiza los headers de las peticiones cuando inicias sesión en el Moodle 
 cómo se obtiene el token. Para ello, necesitamos saber de dónde salen TODOS los
 datos sensibles que se envían.
 
+- El token se obtiene usando una API
+- Basicamente el token se genera en el login de la siguiente forma al logearte con el usuario si es correcto el servidor generara un token y el cliente lo guardara, y cada vez que el usuario quiera logearse usara el token y el servidor lo validara.
+- El token se caduca cuando pasa X tiempo. 
 - headers
 <img src="ex_3.2.png" width="1000" height="300">
 
@@ -14,7 +17,7 @@ UDP, e IP?
 
 - En el puerto 80 y tambien se puede usar el 8000 y 8080
 - En la capa de aplicación
-- En la capa de transporte
+- En la capa de transporte, el tcp udp e ip
 EJ_5.¿Cuál es el significado de la siguiente respuesta de un servidor?
 
 - indica que el recurso solicitado se ha movido temporalmente a la URL proporcionada por el encabezado Ubicación.
