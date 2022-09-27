@@ -20,3 +20,4 @@ al host: www.google.com. Mostrando la cabecera IP, la dirección IP de tu ordena
 la del servidor. Comprueba que, poniendo esa IP en el navegador, accedas a Google.
 
 <img src="ex_6.png" width="1000" height="300">
+Y poniendo la ip 142.250.200.110 me lleva google
