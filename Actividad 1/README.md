@@ -19,4 +19,4 @@ EJ_6.Utilizando el filtro de captura para la interfaz de red de Wireshark, anali
 al host: www.google.com. Mostrando la cabecera IP, la dirección IP de tu ordenador y
 la del servidor. Comprueba que, poniendo esa IP en el navegador, accedas a Google.
 
-<img src="ej_6.png" width="500" height="200">
+<img src="ex_6.png" width="600" height="300">
